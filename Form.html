@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Interns Form</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        form{
+            border: 1px solid black;
+            width: 500px;
+            padding: 1rem;
+           
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="write your name here"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="write your email here"><br><br>
+        <label for="profession">Profession:</label>
+        <input type="text" name="profession" id="profession" placeholder="write your profession here"><br><br>
+        <label for="date">Date:</label>
+        <input type="date" name="date" id="date"><br><br>
+        <label for="">attach your document</label>
+        <input type="file" name="file" id="file"><br><br>
+        <label for="text">why you want to work with us?</label><br>
+        <textarea name="msg" id="msg" placeholder="Message"></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
